@@ -1,0 +1,6 @@
+Problem Statement Description
+Objective: To build a k-NN regression model for the prediction of heating and cooing load requirements of the building using the available data.
+Data Description: This data is about the energy analysis of buildings using different building shapes simulated in Ecotect software. The buildings differ with respect to the glazing area, the glazing area distribution, and the orientation, amongst other parameters.
+Each row represents the attributes of a particular building shape & characteristics. This is a data of 768 samples, so the data contains 768 rows.
+There are 8 data attributes (columns) - X1 Relative Compactness, X2 Surface Area, X3 Wall Area, X4 Roof Area, X5 Overall Height, X6 Orientation, X7 Glazing Area, and X8 Glazing Area Distribution.
+y1 Heating Load and y2 Cooling Load are the target variables. Thus, this is a case of a multiple response regression.
